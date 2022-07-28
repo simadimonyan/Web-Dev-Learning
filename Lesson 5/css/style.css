@@ -1,0 +1,17 @@
+div {
+
+}
+
+span {
+	font-size: 20px;
+	color: red;
+}
+
+span.bigred {
+	font-size: 30px;
+	color: red;
+}
+
+.block {
+	border: 5px solid black;
+}
