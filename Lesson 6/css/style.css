@@ -1,0 +1,44 @@
+.arial {
+	font-family: arial;
+}
+
+.size {
+	font-size: 30px;
+}
+
+.italic {
+	font-style: italic;	
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.color {
+	color: red;
+}
+
+.align {
+	text-align: center;
+}
+
+.decoration {
+	text-decoration: line-through;
+}
+
+.shadow {
+	text-shadow: 1px 1px 10px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.justify {
+	text-align: justify;	
+}
+
+.textindent {
+	text-indent: 30px;
+	line-height: 5px;
+}
