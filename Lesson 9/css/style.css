@@ -1,0 +1,36 @@
+body {
+    padding: 30px;
+}
+
+.text p:nth-child(odd) {
+    color: red;
+}
+
+.link:active {
+    color: yellow;
+}
+
+.link:visited {
+    color: green;
+}
+
+.textinput {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 300px;
+}
+
+.textinput:focus {
+    box-shadow: 0 0 10px;
+}
+
+.textsend {
+    display: block;
+    padding: 20px;
+    width: 300px;
+}
+
+.list li:nth-child(even) {
+    color: red;
+}
+

@@ -1,0 +1,125 @@
+.background {
+	height: 400px;
+	width: 500px;
+	background-color: #e8e8e8;
+	margin: 0 auto;
+	margin-top: 200px;
+	padding-top: 20px;
+	border-radius: 20%;
+}
+
+ul.list {
+	padding: 10px;
+	margin: 20px;
+	font-family: arial;
+}
+
+ul.list li {
+	list-style-image: url("../img/point.png");
+	margin-left: 15%;
+	margin-bottom: 5px;
+}
+
+ul.list li:hover {
+	list-style-image: url("../img/point_red.png");
+	margin-left: 15%;
+	-webkit-transition: 0.5s;
+	margin-bottom: 5px;
+}
+
+ul.list li:nth-child(1) {
+	text-decoration: line-through;
+}
+
+ul.list li:nth-child(1):hover {
+	-webkit-transition: 0.5s;
+	text-decoration: initial;
+}
+
+ul.list li:nth-child(2) {
+	font-weight: bold;
+}
+
+ul.list li:nth-child(2):hover {
+	-webkit-transition: 0.5s;
+	color: red;
+	font-weight: initial;
+}
+
+
+ul.list li:nth-child(3) {
+	font-style: italic;
+}
+
+ul.list li:nth-child(3):hover {
+	-webkit-transition: 0.5s;
+	font-style: initial;
+}
+
+ul.list li:nth-child(4) {
+	text-transform: uppercase;
+}
+
+ul.list li:nth-child(4):hover {
+	-webkit-transition: 0.5s;
+	text-transform: initial;
+}
+
+.send {
+	width: 300px;
+	background-color: #80b7b3;
+	border: initial;
+	border-radius: 30px;
+	padding: 20px;
+	margin-left: 20%;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 0 20px #80b7b3;
+}
+
+.send:hover {
+	width: 300px;
+	background-color: #3a5856;
+	border: initial;
+	border-radius: 30px;
+	padding: 20px;
+	-webkit-transition: 0.5s;
+	margin-left: 20%;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 0 20px #3a5856;
+}
+
+.send:active {
+	width: 300px;
+	background-color: #818181;
+	border: initial;
+	border-radius: 30px;
+	padding: 20px;
+	-webkit-transition: 0.5s;
+	margin-left: 20%;
+	color: white;
+	font-weight: bold;
+	box-shadow: 0 0 20px #818181;
+}
+
+.area {
+	display: block;
+	box-sizing: border-box;
+	margin-top: 10px;
+	margin-left: 20%;
+	width: 300px;
+	padding: 20px;
+}
+
+.area:focus {
+	display: block;
+	box-sizing: border-box;
+	border: 1px solid #7fbed5;
+	box-shadow: 0 0 20px #c5dae2;
+	margin-top: 10px;
+	margin-left: 20%;
+	width: 300px;
+	padding: 20px;
+	outline: none;
+}
